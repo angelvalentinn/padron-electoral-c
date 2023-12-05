@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1701809079 source:c:\users\usuario\desktop\practica-final\ciudadanos.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"ciudadanos.h"
+	"localidad.h"
+
+1701808574 c:\users\usuario\desktop\practica-final\ciudadanos.h
+	"localidad.h"
+
+1701754381 c:\users\usuario\desktop\practica-final\localidad.h
+
+1701754383 source:c:\users\usuario\desktop\practica-final\localidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"localidad.h"
+
+1701807634 source:c:\users\usuario\desktop\practica-final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ciudadanos.h"
+	"localidad.h"
+
+1701809079 source:c:\users\usuario\desktop\patron-electoral\ciudadanos.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"ciudadanos.h"
+	"localidad.h"
+
+1701808574 c:\users\usuario\desktop\patron-electoral\ciudadanos.h
+	"localidad.h"
+
+1701754381 c:\users\usuario\desktop\patron-electoral\localidad.h
+
+1701754383 source:c:\users\usuario\desktop\patron-electoral\localidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"localidad.h"
+
+1701807634 source:c:\users\usuario\desktop\patron-electoral\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ciudadanos.h"
+	"localidad.h"
+
