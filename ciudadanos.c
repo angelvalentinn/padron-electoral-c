@@ -51,7 +51,7 @@ void crearCiudadanoPorParametro(CiudadanoPtr ciudadanos[], int t ,char n[30], ch
 
     for(int i=0; i<t; i++) {
 
-        if( ciudadanos[i]->dni == -1 ) {
+        if( getDni(ciudadanos[i]) == -1 ) {
 
             setNombreCiudadano(ciudadanos[i], n);
             setApellido(ciudadanos[i], a);
@@ -71,9 +71,11 @@ void crearCiudadanoPorParametro(CiudadanoPtr ciudadanos[], int t ,char n[30], ch
 
 void mostrarCiudadano(CiudadanoPtr ciudadano) {
 
-    if( ciudadano->dni != -1 ) {
+    if( getDni(ciudadano) != -1 ) {
+
         printf("Nombre y Apellido: %s %s\nDni: %d\nLocalidad: %s\nCodigo Postal: %d\n\n", getNombreCiudadano(ciudadano),
-        getApellido(ciudadano), getDni(ciudadano) , getNombreLocalidad(ciudadano->localidad), getCodigoPostal(ciudadano->localidad));
+        getApellido(ciudadano), getDni(ciudadano) , getNombreLocalidad( getLocalidad(ciudadano) ), getCodigoPostal( getLocalidad(ciudadano)));
+
     }
 
 };
@@ -138,8 +140,8 @@ void guardarCiudadanosEnTxt(CiudadanoPtr ciudadanos[], int t) {
         if( getDni(ciudadanos[i]) != -1 ) {
 
         fprintf(archivo,"%s,%s,%d,%s,%d\n",getNombreCiudadano(ciudadanos[i]), getApellido(ciudadanos[i]), getDni(ciudadanos[i]),
-                                           getNombreLocalidad(ciudadanos[i]->localidad),
-                                           getCodigoPostal(ciudadanos[i]->localidad));
+                                           getNombreLocalidad(  getLocalidad(ciudadanos[i]) ),
+                                           getCodigoPostal( getLocalidad(ciudadanos[i]) ) );
 
         }
 

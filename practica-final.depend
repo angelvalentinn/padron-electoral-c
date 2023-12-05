@@ -51,3 +51,29 @@
 	"ciudadanos.h"
 	"localidad.h"
 
+1701754383 source:c:\users\usuario\desktop\practica-parcial2\patron-electoral\localidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"localidad.h"
+
+1701754381 c:\users\usuario\desktop\practica-parcial2\patron-electoral\localidad.h
+
+1701810764 source:c:\users\usuario\desktop\practica-parcial2\patron-electoral\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ciudadanos.h"
+	"localidad.h"
+
+1701808574 c:\users\usuario\desktop\practica-parcial2\patron-electoral\ciudadanos.h
+	"localidad.h"
+
+1701811240 source:c:\users\usuario\desktop\practica-parcial2\patron-electoral\ciudadanos.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"ciudadanos.h"
+	"localidad.h"
+
